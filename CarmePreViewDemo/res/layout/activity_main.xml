@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carmepreviewdemo.activity.MainActivity" >
+
+    <com.example.carmepreviewdemo.view.view.MyFrameLayout
+        android:id="@+id/myframe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100.0dip"
+        android:text="拍照" />
+
+    <TextView
+        android:id="@+id/add_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60.0dip"
+        android:text="加挂件" />
+
+    <TextView
+        android:id="@+id/add_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140.0dip"
+        android:gravity="center_horizontal"
+        android:text="滤镜" />
+
+    <TextView
+        android:id="@+id/save_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20.0dip"
+        android:gravity="center_horizontal"
+        android:text="保存" />
+
+    <ImageView
+        android:id="@+id/saved_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
